@@ -2,83 +2,157 @@
 <html lang="en">
 
 <head>
-    <title>mudit.dev</title>
-    
+    <title>mudit.dev | Home</title>
+
     <link rel="stylesheet" href="HomeStyle.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
-    <div class="main">
+
+    <div>
+        <div class="wave"></div>
+        <div class="wave"></div>
+        <div class="wave"></div>
+    </div>
+
+    <header>
+
+
         <div class="navbar">
             <div class="icon">
-                <h2 class="logo"> mudit.dev/>  </h2>
+                <h2 class="logo"> mudit.dev/> </h2>
             </div>
             <div class="menu">
                 <ul>
                     <li><a href="">HOME</a></li>
                     <li><a href="">ABOUT</a></li>
                     <li><a href="">PROJETS</a></li>
-                    <li><a href="">CONTACT</a></li>
+                    <li><a href="Contact.html">CONTACT</a></li>
                 </ul>
             </div>
 
-            <!-- <div class="search">
-                <input type="search" class="input" placeholder="Search Here">
-                <a href="#"><button class="btn">Search</button></a>
-            </div> -->
+            <div class="links">
+                <a href="https://www.linkedin.com/in/muditmathurr/" target="_blank"> <i id="linkedin"
+                        class="fa-brands fa-linkedin"></i> </a>
+                <a href="https://github.com/muditmathurr" target="_blank"> <i id="github"
+                        class="fa-brands fa-github"></i>
+                </a>
+            </div>
         </div>
         <br>
+    </header>
+    <!-- Navbar Done here -->
+    <div>
 
         <div class="profile"></div>
-        <div class="content">
-            <h1>Hi, I'm Mudit </h1>
+        <!-- profile pic done-->
+
+
+        <div class="name-position">
+            <h1>Hi, I'm <h1 id="mudit">Mudit</h1>
+            </h1>
             <h3>Frontend Developer</h3>
-            <br>
-            <p class="para">
-                Driven to create <br>
-                cutting-edge <br>
-                web products.
-            </p>
+        </div>
+        <br>
+        <!-- name and position text done here -->
 
-            <br>
-            <div class="skill">
-                <i class="fab fa-html5" id="html"></i>
-                <i class="fab fa-css3" id="css"></i>
-                <i class="fab fa-js" id="js"></i>
-                <!-- <i class="fab fa-tailwind"></i> -->
-                <i class="fab fa-react" id="react"></i>
-            </div>
+        <p class="para">
+            Driven to create <br>
+            cutting-edge <br>
+            web products.
+        </p>
+        <!-- maragraph done -->
 
-            <!-- <button class="btn1">Connect With Me</button> -->
+        <br>
+        <div class="skill">
+            <i class="fab fa-html5" id="html"></i>
+            <i class="fab fa-css3" id="css"></i>
+            <i class="fab fa-js" id="js"></i>
+            <i class="fab fa-react" id="react"></i>
+            <!-- <i class="fab fa-tailwind"></i> -->
         </div>
 
-        <div class="login">
-            <h2 class="logintext">Login Here</h2> <br>
-            <div class="idpass">
-                <input class="username" type="text" placeholder="username"> <br> <br>
-                <input class="password" type="password" placeholder="password"> <br>
-                <button class="login-btn">Log In</button> <br>
+        <!-- About Page -->
+        <div class="about">
+            <h1 id="a-head1">WHO AM I?</h1>
+            <h1 id="a-head2">About Me</h1>
+            <div class="a-left">
+                <div class="i">
 
-                <h4>Don't have an account?</h4>
-                <h4><a href="#">Sign up </a></h4>
+                </div>
             </div>
-            <p class="liw">Log in with</p>
+            <div class="a-right">
+                <div class="mytext">
 
-            <div class="icons">
-                <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
-                <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
-                <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
-                <a href="#"><ion-icon name="logo-google"></ion-icon></a>
-                <a href="#"><ion-icon name="logo-skype"></ion-icon></a>
+                </div>
             </div>
-
         </div>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-        <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+
+
+        <!-- CONTACT PAGE -->
+        <h3 id="contact-t1">GET IN TOUCH</h3>
+        <h1 id="contact-t2">Contact Me</h1>
+
+        <form class="form">
+            <div class="address">
+                <h2 id="greet">Just Say Hi.</h2>
+                <h6 id="q-text">If you have any question or wanna talk <br>
+                    please feel free for contact me
+                </h6>
+                <div class="location">
+                    <i id="logo" class="fa-solid fa-location-dot"></i>
+                    <h4 style="color: white;">Jaipur, Rajathan</h4>
+                </div>
+                <div class="email">
+                    <i id="logo" class="fa-solid fa-envelope"></i>
+                    <h4 style="color: white;">muditmathur05@gmail.com</h4>
+                </div>
+                <div class="phone">
+                    <i id="logo" class="fa-solid fa-phone"></i>
+                    <h4 style="color: white;">+91 958 7799 262</h4>
+                </div>
+            </div>
+            <!-- address side done -->
+
+            <div class="link">
+                <a href="https://www.linkedin.com/in/muditmathurr/" target="_blank"> <i id="linkedin1"
+                        class="fa-brands fa-linkedin"></i> </a>
+                <a href="https://github.com/muditmathurr" target="_blank"> <i id="github1" class="fa-brands fa-github"></i>
+                </a>
+            </div>
+            <!-- Link icon in last of contact form donee -->
+  
+            <div class="input">
+                <h2 id="input-h">Get In Touch</h2>
+                <input type="text" placeholder="First Name" id="fn">
+                <input type="text" placeholder="Last Name" id="ln">
+                <input type="text" placeholder="Phone" id="ph">
+                <input type="text" placeholder="Email" id="e-m">
+                <input type='text' placeholder='Message' id="textarea">
+                <br>
+                <button type="submit" id="submitbtn">Send</button>
+            </div>
+
+            <!-- form complete -->
+        </form>
+
     </div>
-    </div>
-    </div>
+    <!-- skills icons done -->
+    <footer class="footer">
+        Copyright©2024
+    </footer>
+
+    <!-- <button class="btn1">Connect With Me</button> -->
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+    <script src="Homd.js"> </script>
 </body>
 
 </html>
