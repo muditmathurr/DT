@@ -6,7 +6,7 @@ body {
     /* margin: auto; */
     font-family: -apple-system, BlinkMacSystemFont, sans-serif;
     overflow: auto;
-    background: linear-gradient(315deg, rgb(104, 79, 124) 3%, rgb(66, 97, 63) 38%, rgb(90, 63, 76) 68%, rgb(92, 65, 65) 98%);
+    background: linear-gradient(315deg, rgb(154, 165, 107) 3%, rgb(114, 167, 109) 38%, rgb(101, 159, 173) 68%, rgb(92, 65, 65) 98%);
     animation: gradient 30s ease infinite;
     background-size: 400% 400%;
     background-attachment: fixed;
@@ -83,7 +83,8 @@ body {
     top: 0;
     width: 1850px;
     height: 60px;
-    background-color: #c7a4a410;
+    color: rgb(255, 255, 255);
+    background-color: transparent;
     /* Change to desired color */
     /* border: 2px solid black; */
 }
@@ -91,7 +92,6 @@ body {
 .navbar-scrolled {
     background-color: salmon;
 }
-
 
 .icon {
     width: 160px;
@@ -111,7 +111,7 @@ body {
     margin-top: 15px;
     border-radius: 20px;
     background-color: rgba(173, 169, 169, 0.45);
-    color: rgba(0, 0, 0, 0.7);
+    color: rgba(255, 255, 255, 0.7);
     cursor: pointer;
 }
 
@@ -138,7 +138,7 @@ ul li {
 ul li a {
     margin: 20px 0 0 20px;
     text-decoration: none;
-    color: rgb(0, 0, 0);
+    color: rgb(252, 252, 252);
     font-family: Arial, Helvetica, sans-serif;
     font-size: 17px;
     font-weight: bold;
@@ -162,7 +162,7 @@ ul li a:hover {
     font-size: 20px;
     padding-top: 25px;
     margin-left: 12px;
-    color: rgb(10, 10, 10);
+    color: rgb(255, 255, 255);
 }
 
 .links a {
@@ -177,6 +177,12 @@ ul li a:hover {
     color: #000000;
 }
 
+.bgColor {
+    transition: all 1s;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 2;
+    backdrop-filter: blur(8px);
+}
 
 .profile {
     position: relative;
@@ -795,12 +801,13 @@ h4 {
     left: 0;
     text-align: center;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 15px;
     width: 1850px;
     height: 40px;
     z-index: 0;
     padding-top: 15px;
-    background-color: #c7a4a410;
-    color: white;
+    background-color: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(8px);
+        color: white;
 }
 
