@@ -27,10 +27,10 @@
             </div>
             <div class="menu">
                 <ul>
-                    <li><a href="">HOME</a></li>
-                    <li><a href="">ABOUT</a></li>
-                    <li><a href="">PROJETS</a></li>
-                    <li><a href="Contact.html">CONTACT</a></li>
+                    <li><a href="#home">HOME</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#project">PROJETS</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
                 </ul>
             </div>
 
@@ -46,37 +46,38 @@
     </header>
     <!-- Navbar Done here -->
     <div>
+        <section id="home">
+            <div class="profile"></div>
+            <!-- profile pic done-->
 
-        <div class="profile"></div>
-        <!-- profile pic done-->
 
+            <div class="name-position">
+                <h1>Hi, I'm <span id="mudit">Mudit</span>
+                </h1>
+                <h3>Frontend Developer</h3>
+            </div>
+            <br>
+            <!-- name and position text done here -->
 
-        <div class="name-position">
-            <h1>Hi, I'm <h1 id="mudit">Mudit</h1>
-            </h1>
-            <h3>Frontend Developer</h3>
-        </div>
-        <br>
-        <!-- name and position text done here -->
+            <p class="para">
+                Driven to create <br>
+                cutting-edge <br>
+                web products.
+            </p>
+            <!-- maragraph done -->
 
-        <p class="para">
-            Driven to create <br>
-            cutting-edge <br>
-            web products.
-        </p>
-        <!-- maragraph done -->
-
-        <br>
-        <div class="skill">
-            <i class="fab fa-html5" id="html"></i>
-            <i class="fab fa-css3" id="css"></i>
-            <i class="fab fa-js" id="js"></i>
-            <i class="fab fa-react" id="react"></i>
-            <!-- <i class="fab fa-tailwind"></i> -->
-        </div>
+            <br>
+            <div class="skill">
+                <i class="fab fa-html5" id="html"></i>
+                <i class="fab fa-css3" id="css"></i>
+                <i class="fab fa-js" id="js"></i>
+                <i class="fab fa-react" id="react"></i>
+                <!-- <i class="fab fa-tailwind"></i> -->
+            </div>
+        </section>
 
         <!-- About Page -->
-        <div class="about">
+        <div class="about" id="about">
             <h1 id="a-head1">WHO AM I?</h1>
             <h1 id="a-head2">About Me</h1>
             <div class="a-left">
@@ -120,7 +121,7 @@
 
         <!-- about me done  -->
 
-        <div class="project">
+        <div class="project" id="project">
             <br> <br> <br>
             <h2 id="my-work-text" style="text-align: center; color:#fff; font-size: 12px;
             font-family: Poppins, sans-serif;">MY WORK</h2>
@@ -144,10 +145,10 @@
                 <div class="right-i"></div>
                 <a style="text-decoration: none; color: #000;" href="https://github.com/muditmathurr/todo-react"
                     target="_blank">
-                <button class="right-btn">
-                    <i id="github1" class="fa-brands fa-github"></i> Github
-                </button>
-            </a>
+                    <button class="right-btn">
+                        <i id="github1" class="fa-brands fa-github"></i> Github
+                    </button>
+                </a>
             </div>
         </div>
 
@@ -156,7 +157,7 @@
         <h3 id="contact-t1">GET IN TOUCH</h3>
         <h1 id="contact-t2">Contact Me</h1>
 
-        <form class="form">
+        <form class="form" id="contact">
             <div class="address">
                 <h2 id="greet">Just Say Hi.</h2>
                 <h6 id="q-text">If you have any question or wanna talk <br>
@@ -203,9 +204,9 @@
     </div>
     <!-- skills icons done -->
 
-         <footer class="footer">
-             Copyright©2024
-            </footer>
+    <footer class="footer">
+        Copyright©2024
+    </footer>
 
     <!-- <button class="btn1">Connect With Me</button> -->
 

@@ -1,5 +1,6 @@
 * {
     font-family: Poppins, sans-serif;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -238,8 +239,8 @@ ul li a:hover {
     display: inline-block;
     margin-top: -20px;
     position: absolute;
-    top: 46.5px;
-    right: 0px;
+    top: 45px;
+    right: 60px;
     color: #8d0909;
 }
 
