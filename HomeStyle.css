@@ -286,11 +286,11 @@ ul li a:hover {
     font-size: 40px;
     transition: 0.3s ease;
     transition: transform .2s;
-   
+
 }
 
 #html:hover {
-    color: #834205;
+    color: #ff7b00;
     transform: scale(1.3);
 }
 
@@ -305,7 +305,8 @@ ul li a:hover {
 }
 
 #react:hover {
-    color: #0f5288;transform: scale(1.3);
+    color: #1275c5;
+    transform: scale(1.3);
 }
 
 .about {
@@ -395,6 +396,28 @@ ul li a:hover {
 
 #a-github {
     margin-left: 70px;
+}
+
+.download-btn {
+    font-size: 18px;
+    height: 50px;
+    width: 180px;
+    margin-top: 30px;
+    margin-left: 115px;
+    border-radius: 14px;
+    border: none;
+    cursor: pointer;
+    animation: fade-up 0.5s 0.4s backwards;
+    box-shadow: 0 6px 23px rgba(0, 0, 0, 0.42);
+    transition: transform .2s;
+}
+
+.download-btn:hover {
+    transform: scale(1.04) ;
+}
+.download-btn a {
+    text-decoration: none;
+    color: #000000;
 }
 
 .project {
@@ -764,6 +787,8 @@ h4 {
     outline: none;
 }
 
+
+
 .footer {
     position: fixed;
     bottom: 0;
@@ -775,6 +800,7 @@ h4 {
     height: 40px;
     z-index: 0;
     padding-top: 15px;
-    background-color: rgba(52, 52, 143, 0.5);
+    background-color: #c7a4a410;
     color: white;
 }
+
