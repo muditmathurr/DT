@@ -7,7 +7,7 @@ body {
     /* margin: auto; */
     font-family: -apple-system, BlinkMacSystemFont, sans-serif;
     overflow: auto;
-    background: linear-gradient(315deg, rgb(154, 165, 107) 3%, rgb(114, 167, 109) 38%, rgb(101, 159, 173) 68%, rgb(92, 65, 65) 98%);
+    background: linear-gradient(315deg, rgb(140, 160, 51) 3%, rgb(114, 167, 109) 38%, rgb(101, 159, 173) 68%, rgb(92, 65, 65) 98%);
     animation: gradient 30s ease infinite;
     background-size: 400% 400%;
     background-attachment: fixed;
@@ -420,8 +420,9 @@ ul li a:hover {
 }
 
 .download-btn:hover {
-    transform: scale(1.04) ;
+    transform: scale(1.04);
 }
+
 .download-btn a {
     text-decoration: none;
     color: #000000;
@@ -646,24 +647,24 @@ h4 {
 }
 
 .link {
-    font-size: 50px;
     display: inline-block;
     position: relative;
-    left: 30px;
-    top: 20px;
+    left: 20px;
+    top: 60px;
     /* border: 3px solid black; */
 }
 
-.link i {
-    font-size: 20px;
-    padding-top: 25px;
-    margin-left: 12px;
-    color: #cf811a;
-}
 
 .link a {
     text-decoration: none;
     font-size: none;
+}
+
+.link i {
+    font-size: 30px;
+    padding-top: 25px;
+    margin-left: 12px;
+    color: #cf811a;
 }
 
 #linkedin1:hover {
@@ -809,6 +810,5 @@ h4 {
     padding-top: 15px;
     background-color: rgba(0, 0, 0, 0.6);
     backdrop-filter: blur(8px);
-        color: white;
+    color: white;
 }
-
